@@ -1,0 +1,36 @@
+----------------------------------ÞÝFRELEME----------------------------------
+
+--> Ýnternet üzerinden bir veri transferi yapmak istediðimizi varsayalým. 
+--> Gunumuzde böyle bir iþlemi güvenli bir þekilde gerçekleþtirebilmek için 
+    veriyi þifreleyip yollama metodu kullanýlýr. 
+--> Gönderilecek veri 4 basamakli bir sayi olsun.
+--> Her bir basamakta ki sayý 7 ile toplanýp 10 ile bölünsün ve daha sonra 
+    1. ile 3. basamakta ki sayi, 2. ile 4.basamakta ki sayi yer deðiþtirsin.
+--> Alýcý tarafýnda bu þifrelenen veriyi çözecek bir program oluþturmamýz da 
+    bizden istenmiþ olsun.
+
+
+1996 --> 6+7=13/10=1,3 --> 1.Basamak
+	 9+7=16/10=1,6 --> 2.Basamak
+	 9+7=16/10=1,6 --> 3.Basamak
+	 1+7=8/10=0,8  --> 4.Basamak
+	
+	 1,6 --> Yeni 1.Basamak
+	 0,8 --> Yeni 2.Basamak
+	 1,3 --> Yeni 3.Basamak
+    	 1,6 --> Yeni 4.Basamak
+
+--------Çözümleme----------
+
+	 1,3 --> Çözümleme 1.Basamak
+	 1,6 --> Çözümleme 2.Basamak
+	 1,6 --> Çözümleme 3.Basamak
+	 0,8 --> Çözümleme 4.Basamak
+
+   	 13-7=6 --> Gelen Mesaj 1.Basamak
+	 16-7=9 --> Gelen Mesaj 2.Basamak
+	 16-7=9 --> Gelen Mesaj 3.Basamak
+	 8-7=1  --> Gelen Mesaj 4.Basamak
+
+---> 1996
+	 
